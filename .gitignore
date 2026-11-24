@@ -1,0 +1,19 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+crash.log
+terraform.tfplan
+
+# SSH private keys
+*.pem
+*.key
+
+# Ansible
+inventory
+*.retry
+
+# OS files
+.DS_Store
+Thumbs.db
